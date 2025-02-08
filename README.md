@@ -4,10 +4,6 @@ Overview
 
 The Task Tracker CLI is a simple command-line interface (CLI) application built using Java Spring Boot. This project allows users to track tasks efficiently by performing CRUD operations such as adding, updating, deleting, and displaying tasks. The task list is stored in a MySQL database, and tasks are categorized into different statuses: To-Do, In-Progress, and Done.
 
-Project URl
-
-https://roadmap.sh/projects/task-track
-
 Features
 
 Add a new task
