@@ -65,7 +65,9 @@ POST /tasks/add
 ```json
 {
   "description": "Complete project report",
-  "status": "todo"
+  "status": "todo",
+  "createdAt": "2025-02-05T09:00:00",
+  "updatedAt": "2025-02-06T15:45:00"
 }
 ```
 
