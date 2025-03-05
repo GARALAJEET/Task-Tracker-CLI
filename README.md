@@ -79,11 +79,16 @@ POST /tasks/addMultiple
 **Request Body (JSON):**
 ```json
 [
-  { "description": "Complete Spring Boot project setup", "status": "todo" },
-  { "description": "Fix API bug in task update feature", "status": "in-progress" },
-  { "description": "Write unit tests for TaskService", "status": "done" },
-  { "description": "Document API endpoints in Postman", "status": "todo" },
-  { "description": "Optimize database queries for performance", "status": "in-progress" }
+  { "description": "Complete Spring Boot project setup", "status": "todo", "createdAt": "2025-02-05T09:00:00",
+    "updatedAt": "2025-02-06T15:45:00" },
+  { "description": "Fix API bug in task update feature", "status": "in-progress", "createdAt": "2025-02-05T09:00:00",
+    "updatedAt": "2025-02-06T15:45:00" },
+  { "description": "Write unit tests for TaskService", "status": "done", "createdAt": "2025-02-05T09:00:00",
+    "updatedAt": "2025-02-06T15:45:00" },
+  { "description": "Document API endpoints in Postman", "status": "todo", "createdAt": "2025-02-05T09:00:00",
+    "updatedAt": "2025-02-06T15:45:00" },
+  { "description": "Optimize database queries for performance", "status": "in-progress", "createdAt": "2025-02-05T09:00:00",
+    "updatedAt": "2025-02-06T15:45:00" }
 ]
 ```
 
